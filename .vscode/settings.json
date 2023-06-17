@@ -1,0 +1,14 @@
+{
+	// required for prettier to work properly
+	"prettier.documentSelectors": ["**/*.svelte"],
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// setup http server plugin for vscode
+	"liveServer.settings.root": "/dist",
+	// opioniated stuff
+	"editor.insertSpaces": false, // <-- there are matching options in eslintrc
+	"editor.rulers": [120] // <-- there are matching options in eslintrc
+}
